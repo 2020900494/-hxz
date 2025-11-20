@@ -20,3 +20,4 @@ public class PageResult implements Serializable {
     private List records; //当前页数据集合
 
 }
+//凡是要作为返回值给前端的类，一般都加上 implements Serializable。
